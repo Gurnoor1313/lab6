@@ -13,5 +13,9 @@ public class ReferenceBook extends Book {
         super.displayDetails();
         System.out.println("Topic: " + topic);
     }
-}
 
+    @Override
+    public void displayBookType() {
+        System.out.println("Book Type: Reference");
+    }
+}

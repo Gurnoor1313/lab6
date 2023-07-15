@@ -12,4 +12,10 @@ public class NonFictionBook extends Book {
         super.displayDetails();
         System.out.println("Subject: " + subject);
     }
+
+    @Override
+    public void displayBookType() {
+        System.out.println("Book Type: Non-Fiction");
+    }
 }
+

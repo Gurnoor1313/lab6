@@ -1,6 +1,6 @@
 package lab6;
 
-public class Book {
+public abstract class Book {
     private String title;
     private String author;
 
@@ -13,4 +13,8 @@ public class Book {
         System.out.println("Title: " + title);
         System.out.println("Author: " + author);
     }
+
+    public abstract void displayBookType();
 }
+
+

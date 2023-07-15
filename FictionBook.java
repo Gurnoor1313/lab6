@@ -13,5 +13,10 @@ public class FictionBook extends Book {
         super.displayDetails();
         System.out.println("Genre: " + genre);
     }
+
+    @Override
+    public void displayBookType() {
+        System.out.println("Book Type: Fiction");
+    }
 }
 

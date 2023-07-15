@@ -13,4 +13,9 @@ public class Magazine extends Book {
         super.displayDetails();
         System.out.println("Issue Number: " + issueNumber);
     }
+
+    @Override
+    public void displayBookType() {
+        System.out.println("Book Type: Magazine");
+    }
 }
